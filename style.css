@@ -1,0 +1,312 @@
+*{
+    padding: 0; margin: 0;
+    text-align: center; align-items: center;
+    text-decoration: none;
+    box-sizing: border-box;
+    border: none; outline: none; list-style: none;
+    transition: all .2s linear;
+    line-height: 1.5;
+}
+html{
+    font-size: 62%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+body{
+    background: rgb(201, 197, 197);
+    padding-left: 20rem;
+}
+header{
+    font-size: medium;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    position: fixed;
+    left: 0; bottom: 0; top: 0;
+    display: flex; flex-flow: column;
+    align-items: center; justify-content: space-between;
+    z-index: 100;
+    background: rgb(33, 30, 30);
+    padding: 140px 32px; 
+    width: 100%;
+}
+#myLinks{
+    cursor: pointer;
+}
+.navbar ul li a{
+    font-size: 28px;
+    display: block;
+    color: rgb(152, 113, 113);
+    margin: 25px; padding-top: 20px;
+    cursor: pointer;
+}
+header .navbar a:hover{
+    color: bisque;
+    letter-spacing: 5px;
+}
+section{
+    text-align: center;
+    align-items: center;
+    padding-right: 10px;
+}
+.Home{
+    background-color: lightgray;
+    margin-bottom: 20px;
+    height: 55vh; width: 450px;
+}
+.Container{
+    background-color: lightgrey;
+    margin-bottom: 20px;
+    height: 55vh; width: 450px;
+    display: flex; overflow: hidden;
+    justify-content: flex-end;
+}
+.rightbox{
+    background-color: rgb(198, 171, 129);
+    transform: rotate(-45deg);
+    position: relative; border-radius: 10px;
+    height: 620px; width: 600px;
+    left: 150px;
+    bottom: -60px; 
+}
+.rightbox .name h1{
+    font-size: 30px;
+    transform: rotate(45deg);
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.rightbox .image img{
+    height: 50vh;
+    width: 53vw;
+    rotate: 45deg;
+    margin-right: 58px;  margin-top: 30px;
+    border-radius: 15px; 
+}
+.About{
+    background-color: lightgray;
+    height: 50vh;  width: 450px
+}
+.About .heading{
+    font-size: 33px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    text-transform: uppercase;
+    padding: 20px;
+}
+.About .content p{
+    font-size: 19px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: lighter;
+    text-align: center;
+}
+.btn button{
+    font-size: 18px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color:  black;
+    color: rgb(235, 218, 197);
+    border-radius: 10px;
+    width: 30vw;
+    height: 6vh;
+    margin: 38px; 
+}
+.btn button:hover{
+    background-color: whitesmoke;
+}
+.Projects{
+    align-items: center;
+    background-color: lightgray;
+    width: 450px;
+}
+.Projects h2{
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    margin-top: 30px;
+}
+.boxContainer .box1{
+    background-color: rgb(145, 175, 190);
+    border-radius: 15PX 40px; height: 30vh;
+    margin-bottom: 15px; margin-left: 55px;
+    margin-top: 20px; margin-right: 35px;
+}
+.boxContainer .box2{
+    background-color: rgb(145, 175, 190);
+    border-radius: 15PX 40px; height: 30vh;
+    margin-bottom: 15px; margin-left: 55px;
+    margin-top: 20px; margin-right: 35px;
+}
+.boxContainer .box3{
+    background-color: rgb(149, 182, 194);
+    border-radius: 15PX 40px; height: 30vh;
+    margin-bottom: 12px; margin-left: 55px;
+    margin-top: 20px; margin-right: 35px;
+}
+.box1 h3{
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+.box1 p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+.box2 h3{
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+.box2 p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+.box3 h3{
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 23px;
+}
+.box3 p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 23px;
+}
+.boxContainer button{
+    cursor: pointer;
+    background-color: black;
+    color: rgb(238, 220, 197);
+    font-size: 14px;
+    width: 22vw; height: 5vh;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.boxContainer button:hover{
+    background-color: rgb(239, 219, 193);
+    color: black;
+}
+.icons-container{
+    display: flex;
+    flex-flow: column;
+    padding: 10px;
+    align-items: center;
+}
+#icon{
+    font-size: 18px;
+    background-color: rgb(145, 175, 190);
+    width: 72vw; height: 8vh;
+    border-radius: 6px 23px;
+}
+#icons{
+    font-size: 18px;
+    background-color: rgb(145, 175, 190); 
+    width: 65vw; height: 8vh;
+    border-radius: 6px 25px;
+    margin-top: 10px;
+}
+#button{
+    font-size: 18px;
+    background-color: rgb(145, 175, 190);
+    width: 65vw; height: 8vh;
+    border-radius: 6px 25px; margin-top: 10px;
+}
+.Contact .contactform{
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.Contact{
+    background-color: lightgray;
+    width: 450px;
+}
+.Contact h2{
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding: 10px;
+    margin-top: 40px;
+}
+.container{
+    background-color: rgb(176, 196, 206);
+    align-items: center; 
+    margin-bottom: 15px; margin-left: 15px;
+    margin-top: 20px;
+    border-radius: 15px 55px 30px;
+}
+.contactform form{
+    padding: 10px;
+    margin-top: 16px;
+}
+.contactform form label{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin: 12px; padding: 5px;
+}
+.contactform form input{
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+}
+#ClientName{
+    width: 80vw; height: 7vh;
+    border-radius: 5px;
+}
+#ClientEmail{
+    width: 76vw; height: 7vh;
+    border-radius: 5px;
+    margin: 5px;
+}
+#Clientphone{
+    width: 79vw; height: 7vh;
+    border-radius: 5px; margin: 4px;
+}
+#ClientMessage{
+    width: 78vw; height: 18vh;
+    border-radius: 5px;
+}
+.btn-sm{
+    background-color: black;
+    color: rgb(241, 223, 201);
+    width: 25vw;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px; font-weight: bold;
+    border-radius: 8px;
+    padding: 5px;  margin: 18px;
+}
+.btn-sm:hover{
+    background-color: whitesmoke;
+}
+.boxContainer{
+    box-sizing: border-box;
+}
+.hamburger{
+    position: inherit;
+    right: 5px; top: 5px;
+    color: rgb(60, 55, 55);
+    font-size: 10px;
+    cursor: pointer;
+}
+.bar1, .bar2, .bar3{
+    width: 34px;
+    height: 6px;
+    margin: 5px 5px; padding: 3px;
+    background-color: rgb(139, 113, 79);
+    transition: 0.4s;
+    z-index: 1000;
+}
+@media (max-width: 414px){
+    html{
+        font-size: 50%;
+    }
+    body{
+        padding: 0;
+    }
+    .hamburger{
+        display: block;
+    }
+    header{
+        width: 100%;
+    }
+    .About{
+        background-color: lightgray;
+        height: 53vh;
+    }
+    
+}
+
+
+    
+
